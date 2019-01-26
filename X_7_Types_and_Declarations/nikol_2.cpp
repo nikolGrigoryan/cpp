@@ -9,7 +9,7 @@ int main()
 				int i = c;
 				cout << "i: " << i << '\n';
 
-				if (numeric_limits<int>::is_signed) {
+				if (numeric_limits<char>::is_signed) {
 								cout << "signed!\n";
 				} else {
 								cout << "unsigned!\n";
